@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import {
   Menu,
@@ -34,7 +33,7 @@ const Navbar = () => (
           <Link href='/' passHref>
             <MenuItem icon={<FcHome />}>Home</MenuItem>
           </Link>
-          <Link href='/Search' passHref>
+          <Link href='/search' passHref>
             <MenuItem icon={<BsSearch />}>Search</MenuItem>
           </Link>
           <Link href='/search?purpose=for-sale' passHref>
